@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Página Principal'),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color(0xFF6750A4),
       ),
       body: SingleChildScrollView(
         child: Container(

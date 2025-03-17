@@ -17,9 +17,10 @@ class _ParqueAquaticoState extends State<ParqueAquatico> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Parque Aquático'),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color(0xFF6750A4),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(14),

@@ -17,9 +17,10 @@ class _KartState extends State<Kart> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Corrida de Kart'),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color(0xFF6750A4),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(14),
