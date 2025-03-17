@@ -43,7 +43,14 @@ class _HomeState extends State<Home> {
           padding: EdgeInsets.all(15),
           child: Column(
             children: [
-              Padding(padding: EdgeInsets.only(top: 14)),
+              // Logo
+              Image.asset('images/logo.jpg'),
+              Padding(padding: EdgeInsets.only(top: 30)),
+              Text('Selecione uma Viagem:', style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18
+              ),),
+              Padding(padding: EdgeInsets.only(top: 10)),
               // Primeiro item
               GestureDetector(
                 onTap: _abrirKart,
